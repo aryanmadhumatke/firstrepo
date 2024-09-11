@@ -1,0 +1,293 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+header {
+    height: auto;
+    background-image: url('mainbg.jpg');
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navbar .logo img {
+    background: transparent;
+    padding: 2px 5px;
+    cursor: pointer;
+    background: #00000069;
+    border-radius: 15px;
+
+}
+
+.navbar {
+
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(128, 128, 128, 0.421);
+    scroll-behavior: smooth;
+    background: #f3f4f682;
+    box-shadow: 0 0 20px black;
+    z-index: 1001;
+
+
+}
+
+
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: rgb(18, 17, 17);
+    justify-content: space-between;
+
+}
+
+.nav li a {
+    color: rgb(20, 20, 20);
+    padding: 3px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(231, 115, 6);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    transition: all.55s ease;
+
+
+}
+
+li a:hover {
+    transform: translateX(10deg);
+    font-size: 12px;
+    border-bottom: none;
+    border: 2px solid rgba(255, 255, 255, 0.758);
+    border-radius: 4px;
+
+}
+
+.navbar .phno i {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    top: 20px;
+    left: 40px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar .phno span {
+    top: 5px;
+    right: 30px;
+}
+
+.herosection {
+    width: 100%;
+    top: 70px;
+    margin: 10px 0;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  position: relative;
+
+}
+
+.herotext {
+    margin: auto;
+    height: 550px;
+    width: 500px;
+
+}
+
+.herotext img {
+    height: 250px;
+  width: 200px;
+  margin-left: 25%;
+
+
+
+}
+
+.herotext h1 {
+    font-size: 75px;
+    font-weight: 500;
+    right: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 13px;
+    top: 60px;
+}
+
+.herotext a {
+    color: rgb(26, 24, 24);
+   font-size: 25px;
+   font-weight: 700;
+   background: rgba(159, 134, 94, 0.993);;
+   width: auto;
+   position: relative;
+   margin-top: 20px;
+   border-radius: 3px;
+   padding: 20px;
+   margin: 30px;
+   text-transform: uppercase;
+   top: 50px;
+left: 20px;
+}
+.herotext a :hover{
+    background: transparent;
+}
+
+
+.container {
+    background: #ffffff;
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.container .img1 {
+    height: 381px;
+    width: 300px;
+    background-size: 500px;
+}
+
+.container .imgtext {
+    height: 400px;
+    width: 400px;
+align-content: center;
+padding: 40px 30px;
+
+}
+
+.container .imgtext h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+    margin: auto;
+}
+.container .imgtext p{
+    text-align: justify;
+    font-size: large;
+    margin: 30px 20px;
+}
+.container .imgtext button{
+    padding: 20px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: white;
+    background: rgba(159, 134, 94, 0.993);;
+    border: none;
+
+}
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imag3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 50vh;
+    width: 100%;
+    background: #000;
+    color: rgba(143, 142, 142, 0.43);
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.fotter h1 {
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
+.fotter img {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    color: rgba(255, 255, 255, 0.385);
+    margin: 10px;
+}
+
+.end li {
+    display: inline;
+    margin: auto;
+    position: relative;
+    top: 45px;
+    margin: 10px;
+}
+
+.end li a {
+    color: rgba(169, 168, 168, 0.438);
+    text-transform: capitalize;
+    margin: 10px;
+
+}
+
+.copy i,
+span {
+    position: relative;
+    top: 90px;
+
+}
