@@ -1,4 +1,3 @@
 # firstrepo
-this is my git repo
-<br>
+this is my project i push on git
 author bye aryan madhumatke
